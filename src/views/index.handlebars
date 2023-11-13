@@ -1,0 +1,25 @@
+<div>
+    <h1>Lista de personajes de libros de fantasia</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Abilities</th>
+                <th>Book</th>
+                <th>Author</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each data}}
+            <tr>
+                <th>{{this.name}}</th>
+                <th>{{this.gender}}</th>
+                <th>{{this.abilities}}</th>
+                <th>{{this.book}}</th>
+                <th>{{this.author}}</th>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
